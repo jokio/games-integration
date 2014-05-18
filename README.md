@@ -6,17 +6,17 @@ Basic
 -----
 If you want to give your users ability to play games & have fun, it's very simple, just follow the link:
 ```
-http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXIT_URL]
+http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXITURL]
 ```
 Just replace values:
-* [GAME_NAME] - name of the game, which you want to integrate on your site (please see reserved game name-s below)
+* [GAME_NAME] - name of the game, which you want to integrate on your site (please see game name-s below)
 * [CHANNEL] - there is possibiliy to group players using channels, empty channel means it is public
-* [EXIT_URL] - when player press exit button, where to redirect
+* [EXITURL] - when player press exit button, where to redirect
 
 
 
-Games
------
+GAME_NAME
+---------
 Use one of the following game name:
 
 ```
@@ -27,3 +27,24 @@ matrix - Online matrix game
 battleship - Online battleship game
 checkers - Online checkers game
 ```
+
+example: ``` http://pool.jok.io/play ```
+
+
+CHANNEL
+-------
+There are some reserved words in channel which you can't use:
+```
+private - It will redirect to random private channel (random GUID)
+tournament - It will redirect to tournament table, only avaliable when tournament is started
+[empty] -Ppublic channel, where text messaging is limited.  Users can send only smiles
+```
+
+example: ``` http://pool.jok.io/play/mychannel ```
+
+
+EXITURL
+--------
+You can pass your site url here, when player leaves table, he will be redirected to EXITURL
+
+example: ``` http://pool.jok.io/play/mychannel?exitUrl=http://google.com ```
