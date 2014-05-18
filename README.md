@@ -47,4 +47,4 @@ EXITURL
 --------
 You can pass your site url here, when player leaves table, he will be redirected to EXITURL
 
-example: ``` http://pool.jok.io/play/mychannel?exitUrl=http://google.com ```
+example: ``` http://pool.jok.io/play/mychannel?exitUrl=https://github.com/jokio/games-integration ```
