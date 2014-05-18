@@ -1,25 +1,16 @@
-Jok Games Integration on your site
-==================================
+Jok Games Integration
+=====================
 
 
-When player press 'Play' on your site, document must be redirected to the following url:
-```
-http://[GAME_NAME].jok.io/play/[CHANNEL]?token=[TOKEN_HERE]&exitUrl=[EXIT_URL]
-```
-<br/>
+Basic
+-----
 
-Variables must be replaced with correct ones:
+If you want to give your users ability to play games & have fun, it's very simple, just follow the link:
 ```
-[GAME_NAME] - name of the game, which you want to integrate on your site
-[CHANNEL] - there is possibiliy to group players using channels, empty channel means it is public
-[TOKEN_HERE] - token which identifies your user in your system
-[EXIT_URL] - when player press exit button, to redirect on your site
+http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXIT_URL]
 ```
-<br/>
-
-Example:
-```
-http://bg.jok.io/play/?token=55ad340609f4b302&exitUrl=http://forum.ge
-```
-
+Just replace values:
+* [GAME_NAME] - name of the game, which you want to integrate on your site (please see reserved game key-s below)
+* [CHANNEL] - there is possibiliy to group players using channels, empty channel means it is public
+* [EXIT_URL] - when player press exit button, where to redirect
 
