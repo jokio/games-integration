@@ -34,10 +34,11 @@ CHANNEL
 -------
 There are some reserved words in channel which you can't use:
 ```
+[empty] - Public channel, where text messaging is limited.  Users can send only smiles
 private - It will redirect to random private channel (random GUID)
 tournament - It will redirect to tournament table, only avaliable when tournament is started
-[empty] - Public channel, where text messaging is limited.  Users can send only smiles
 ```
+Use any other string as channel and group your users together
 
 example: ``` http://pool.jok.io/play/mychannel ```
 
