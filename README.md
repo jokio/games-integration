@@ -4,7 +4,7 @@ Jok Games Integration
 
 Basic
 -----
-If you want to give your users ability to play games & have fun, it's very simple, just follow the link:
+If you want to give your users ability to play games & have fun, it's very simple, follow the link:
 ```
 http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXITURL]
 ```
