@@ -23,7 +23,6 @@ Use one of the following game name:
 pool - Online billiard game
 reversi - Online reversi game
 bg - Online backgammon game
-matrix - Online matrix game
 battleship - Online battleship game
 checkers - Online checkers game
 ```
