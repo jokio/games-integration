@@ -1,9 +1,5 @@
-Jok Games Integration
-=====================
-
-
-Basic
------
+Jok Games Integration - Basic
+=============================
 If you want to give your users ability to play games & have fun, it's very simple, follow the link:
 ```
 http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXITURL]
@@ -48,3 +44,29 @@ EXITURL
 You can pass your site url here, when player leaves table, he will be redirected to EXITURL
 
 example: ``` http://pool.jok.io/play/mychannel?exitUrl=https://github.com/jokio/games-integration ```
+
+
+
+
+
+Jok Games Integration - Advanced
+================================
+If you want to integrate your users system, you will need to pass some extra parameters
+
+Mandatory Paramteres:
+```
+ExternalID - User's unique identification in your system
+Email - User's email
+Fullname - First Name + ' ' + Last Name
+```
+
+Optional Parameters:
+```
+Nick - Users nickname, to be same as your portal, otherwise there will be auto-generated nick like Jok32952
+Gender - for avatar, default is unknown
+```
+
+example: <br/>
+``` http://pool.jok.io/play/mychannel?ExternalID=1&Email=ez@jok.io&Fullname=Ezeki Zibzibadze&Nick=babt&gender=true ```
+
+<b>Warning:</b> User must be redirected from your portal, otherwise it will not work!
