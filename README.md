@@ -71,7 +71,7 @@ Gender - for avatar, default is unknown
 ```
 
 example: <br/>
-``` http://pool.jok.io/play/mychannel?ExternalID=1&Email=ez@jok.io&Fullname=Ezeki Zibzibadze&Nick=babt&Gender=true ```
+``` http://pool.jok.io/play/mychannel?ExternalID=1&Email=contact@jok.io&Fullname=Name Surename&Nick=NinjaPlayer&Gender=true ```
 
 <br/>
 <b>Warning:</b> User must be redirected from your portal, otherwise it will not work!
