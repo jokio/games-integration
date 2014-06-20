@@ -46,7 +46,8 @@ You can pass your site url here, when player leaves table, he will be redirected
 example: ``` http://pool.jok.io/play/mychannel?exitUrl=https://github.com/jokio/games-integration ```
 
 
-
+<br/>
+<br/>
 
 
 Jok Games Integration - Advanced
@@ -62,7 +63,7 @@ Fullname - First Name + ' ' + Last Name
 
 Optional Parameters:
 ```
-Nick - Users nickname, to be same as your portal, otherwise there will be auto-generated nick like Jok32952
+Nick - Users nickname, otherwise there will be auto-generated nick like Jok32952
 Gender - for avatar, default is unknown
 ```
 
