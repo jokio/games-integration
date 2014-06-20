@@ -67,7 +67,7 @@ Fullname - First Name + ' ' + Last Name
 Optional Parameters:
 ```
 Nick - Users nickname, otherwise there will be auto-generated nick like Jok32952
-Gender - for avatar, default is unknown
+Gender - for avatar, true - male, false - female, none - unknown
 ```
 
 example: <br/>
