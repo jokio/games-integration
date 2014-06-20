@@ -8,8 +8,8 @@ Just replace values:
 * [GAME_NAME] - name of the game, which you want to integrate on your site (please see game name-s below)
 * [CHANNEL] - there is possibiliy to group players using channels, empty channel means it is public
 * [EXITURL] - when player press exit button, where to redirect
-
-
+<br/>
+<br/>
 
 <b>GAME_NAME</b><br/>
 Use one of the following game name:
@@ -23,7 +23,8 @@ checkers - Online checkers game
 ```
 
 example: ``` http://pool.jok.io/play ```
-
+<br/>
+<br/>
 
 <b>CHANNEL</b><br/>
 There are some reserved words in channel which you can't use:
@@ -35,7 +36,8 @@ tournament - It will redirect to tournament table, only avaliable when tournamen
 Use any other string as channel and group your users together
 
 example: ``` http://pool.jok.io/play/mychannel ```
-
+<br/>
+<br/>
 
 <b>EXITURL</b><br/>
 You can pass your site url here, when player leaves table, he will be redirected to EXITURL
