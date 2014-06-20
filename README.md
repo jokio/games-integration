@@ -1,6 +1,6 @@
 Jok Games Integration
 =====================
-In 5 minute - You will have 5 games integrated in your portal, it's super easy! Just follow the documentation.
+In 5 minute - You will have 5 online games integrated in your portal, it's super easy! Just follow the documentation.
 
 Basic
 =====
