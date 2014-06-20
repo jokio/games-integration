@@ -1,4 +1,4 @@
-Jok Games Integration - Basic
+Jok Games Integration<br/><br/>Basic
 =============================
 If you want to give your users ability to play games & have fun, it's very simple, follow the link:
 ```
@@ -11,8 +11,7 @@ Just replace values:
 
 
 
-GAME_NAME
----------
+<b>GAME_NAME</b><br/>
 Use one of the following game name:
 
 ```
@@ -26,8 +25,7 @@ checkers - Online checkers game
 example: ``` http://pool.jok.io/play ```
 
 
-CHANNEL
--------
+<b>CHANNEL</b><br/>
 There are some reserved words in channel which you can't use:
 ```
 [empty] - Public channel, where text messaging is limited.  Users can send only smiles
@@ -39,8 +37,7 @@ Use any other string as channel and group your users together
 example: ``` http://pool.jok.io/play/mychannel ```
 
 
-EXITURL
---------
+<b>EXITURL</b><br/>
 You can pass your site url here, when player leaves table, he will be redirected to EXITURL
 
 example: ``` http://pool.jok.io/play/mychannel?exitUrl=https://github.com/jokio/games-integration ```
@@ -50,7 +47,7 @@ example: ``` http://pool.jok.io/play/mychannel?exitUrl=https://github.com/jokio/
 <br/>
 
 
-Jok Games Integration - Advanced
+Advanced
 ================================
 If you want to integrate your users system, you will need to pass some extra parameters
 
