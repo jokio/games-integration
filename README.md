@@ -1,5 +1,9 @@
-Jok Games Integration<br/><br/>Basic
-=============================
+Jok Games Integration
+=====================
+In 5 minute - You will have 5 games integrated in your portal, it's super easy! Just follow the documentation.
+
+Basic
+=====
 If you want to give your users ability to play games & have fun, it's very simple, follow the link:
 ```
 http://[GAME_NAME].jok.io/play/[CHANNEL]?exitUrl=[EXITURL]
